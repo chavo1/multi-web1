@@ -38,7 +38,10 @@ Connection to 127.0.0.1 closed.
 
 ```
 vagrant ssh mysql
-mysql -u root -p vagrant
+
+mysql -u root -p
+
+Enter password:vagrant
 ```
 
 After this you can destroy the environments as follow:
